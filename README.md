@@ -22,7 +22,7 @@ var log = bole ("my-module");
 
 Some outputs:
 
-- `log.info ({ foo: "bar" }, "baz")`
+- `log.warn ({ foo: "bar" }, "baz")`
 
   ![output1][output1]
 - `log.error (new Error ("foo"), "bar")`
