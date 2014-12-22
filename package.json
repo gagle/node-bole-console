@@ -1,6 +1,6 @@
 {
 	"name": "bole-console",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Console formatter for the bole logger",
 	"keywords": ["bole", "console", "format"],
 	"author": "Gabriel Llamas <gagle@outlook.com>",
