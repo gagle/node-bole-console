@@ -39,15 +39,15 @@ Returns a new Writable stream instance.
 
 Options:
 
-- __timestamp__ - _Boolean_
+- __timestamp__ - _Boolean_  
   Includes the ISO string of the current time. Default false.
-- __hostname__ - _Boolean_
+- __hostname__ - _Boolean_  
   Includes the hostname of the current user. Default false.
-- __pid__ - _Boolean_
+- __pid__ - _Boolean_  
   Includes the pid of the current process. Default false.
-- __indent__ - _Number_
+- __indent__ - _Number_  
   Number of spaces for each level when objects are formatted. Default 2.
-- __colors__ - _Boolean_
+- __colors__ - _Boolean_  
   Prints the message with colors. Default true.
 
 [npm-version-image]: http://img.shields.io/npm/v/bole-console.svg
