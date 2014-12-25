@@ -1,8 +1,8 @@
 {
   "name": "bole-console",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Console formatter for the bole logger",
-  "keywords": ["bole", "console", "format"],
+  "keywords": ["log", "bole", "console", "format"],
   "author": "Gabriel Llamas <gagle@outlook.com>",
   "repository": "git://github.com/gagle/node-bole-console.git",
   "engines": {
