@@ -13,8 +13,13 @@ Plugin for the [bole][bole-url] logger. Formats and colorizes the JSON object an
 var bole = require ("bole");
 var boleConsole = require ("bole-console");
 
+var boleConsoleStream = boleConsole ({
+  timestamp: true,
+  requestDetails: true
+});
+
 bole.output ([
-  { level: 'info', stream: boleConsole ({ timestamp: true }) }
+  { level: 'info', stream: boleConsoleStream }
 ]);
 
 var log = bole ("my-module");
@@ -49,6 +54,8 @@ Options:
   Number of spaces for each level when objects are formatted. Default 2.
 - __colors__ - _Boolean_  
   Prints the message with colors. Default true.
+- __requestDetails__ - _Boolean_  
+  Includes some details about the request such as headers and remote socket. Default false.
 
 [npm-version-image]: http://img.shields.io/npm/v/bole-console.svg
 [npm-install-image]: https://nodei.co/npm/bole-console.png?mini=true
