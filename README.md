@@ -3,43 +3,40 @@ bole-console
 
 #### Console formatter for the bole logger ####
 
-[![npm version][npm-version-image]][npm-url]
-
-[![npm install][npm-install-image]][npm-url]
+[![npm][npm-image]][npm-url]
 
 Plugin for the [bole][bole-url] logger. Formats and colorizes the JSON object and prints it to the stdout.
 
 ```javascript
-var bole = require ("bole");
-var boleConsole = require ("bole-console");
+var bole = require('bole');
+var boleConsole = require('bole-console');
 
-var boleConsoleStream = boleConsole ({
+var boleConsoleStream = boleConsole({
   timestamp: true,
   requestDetails: true
 });
 
-bole.output ([
+bole.output([
   { level: 'info', stream: boleConsoleStream }
 ]);
 
-var log = bole ("my-module");
+var log = bole('my-module');
 ```
 
 Some outputs:
 
-- `log.warn ({ foo: "bar" }, "baz")`
+- `log.warn ({ foo: 'bar' }, 'baz')`
 
   ![output1][output1]
-- `log.error (new Error ("foo"), "bar")`
+- `log.error(new Error('foo'), 'bar')`
 
   ![output2][output2]
-- `log.info (request, "foo")`
+- `log.info(request, 'foo')`
 
   ![output3][output3]
 
 <a name="create"></a>
-___module_([options]) : Writable__
-
+___module_([options]) : Writable__  
 Returns a new Writable stream instance.
 
 Options:
@@ -57,8 +54,7 @@ Options:
 - __requestDetails__ - _Boolean_  
   Includes some details about the request such as headers and remote socket. Default false.
 
-[npm-version-image]: http://img.shields.io/npm/v/bole-console.svg
-[npm-install-image]: https://nodei.co/npm/bole-console.png?mini=true
+[npm-image]: http://img.shields.io/npm/v/bole-console.svg
 [npm-url]: https://npmjs.org/package/bole-console
 [bole-url]: https://github.com/rvagg/bole
 [output1]: https://github.com/gagle/node-bole-console/blob/master/images/output1.png

@@ -1,3 +1,6 @@
+v0.1.8 (16 Jan 2015)
+  Added milliseconds to the ISO date.
+
 v0.1.7 (25 Dec 2014)
   Bump version.
 
