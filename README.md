@@ -54,7 +54,7 @@ Options:
 - __requestDetails__ - _Boolean_  
   Includes some details about the request such as headers and remote socket. Default false.
 
-[npm-image]: http://img.shields.io/npm/v/bole-console.svg
+[npm-image]: http://img.shields.io/npm/v/bole-console.svg?style=flat
 [npm-url]: https://npmjs.org/package/bole-console
 [bole-url]: https://github.com/rvagg/bole
 [output1]: https://github.com/gagle/node-bole-console/blob/master/images/output1.png
