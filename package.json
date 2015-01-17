@@ -1,6 +1,6 @@
 {
   "name": "bole-console",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Console formatter for the bole logger",
   "keywords": [
     "bole",

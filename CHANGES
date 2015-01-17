@@ -1,3 +1,6 @@
+v0.1.9 (17 Jan 2015)
+  Support for "objectMode".
+
 v0.1.8 (16 Jan 2015)
   Added milliseconds to the ISO date.
 
