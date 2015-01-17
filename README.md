@@ -35,7 +35,6 @@ Some outputs:
 
   ![output3][output3]
 
-<a name="create"></a>
 ___module_([options]) : Writable__  
 Returns a new Writable stream instance.
 
