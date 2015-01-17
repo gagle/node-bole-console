@@ -1,6 +1,6 @@
 {
   "name": "bole-console",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Console formatter for the bole logger",
   "keywords": [
     "bole",
@@ -11,6 +11,9 @@
   "repository": "git://github.com/gagle/node-bole-console.git",
   "engines": {
     "node": ">=0.10"
+  },
+  "dependencies": {
+    "clone": "^0.2.0"
   },
   "license": "MIT",
   "main": "lib"
